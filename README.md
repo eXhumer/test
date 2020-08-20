@@ -25,11 +25,13 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="27e2", GROUP="plug
 ![NUT GUI Image](https://raw.githubusercontent.com/blawar/nut/master/public_html/images/nutserver.png)
 
 ## Application Summary
+The GUI is divided into three distinct sections (header, body, footer.
+
 ### Application Header
-The GUI is divided into three distinct sections. The top section has a textbox to input a folder path to scan, along with a `Scan` button to scan the path specified in the textbox. Next to it, you should see a `GDrive Auth` button. A detailed explaination of what it does can be found below. The IP/Port/User/Password are the information needed to login to the NUT server. To the right of those, you can also see a `USB Status` indicator, indicating whether a tinfoil client is connected via USB with the server.
+The top section has a textbox to input a folder path to scan, along with a `Scan` button to scan the path specified in the textbox. Next to it, you should see a `GDrive Auth` button. A detailed explaination of what it does can be found below. The IP/Port/User/Password are the information needed to login to the NUT server. To the right of those, you can also see a `USB Status` indicator, indicating whether a tinfoil client is connected via USB with the server.
 
 ### Application Body
-This shows a list of NSW files that was detected by NUT from the scanned paths. It shows the title count, file name, title ID, title type and title size for each scanned file.
+This shows a table containing a list of NSW files that was detected by NUT from the scanned paths. It shows the title count, file name, title ID, title type and title size for each scanned file.
 
 ### Application Footer
 This shows the progress of any file that is currently being downloaded from the server
